@@ -1,12 +1,12 @@
 body {
-background-image:url('images/background-3.jpg');
-margin: 0;
-padding: 0;
-font-family: 'Arial', serif;
-text-align: center;
+	background-image:url('images/background-3.jpg');
+	margin: 0;
+	padding: 0;
+	font-family: 'Arial', serif;
+	text-align: center;
 } 
 
-.nav {
+nav {
     background-color: #595959;
     color: #ffffff;
 	list-style: none;
@@ -14,54 +14,53 @@ text-align: center;
 	padding: 20px 0 20px 0;
 }
 
-.nav > li {
+nav li {
     display: inline-block;
 	padding: 0 25px 0 25px;
-
 }
 
-.nav > li > a {
+nav li a {
 	text-decoration: none;
 	color: #ffffff
 }
 
-.nav > li > a:hover {
+nav li a:hover {
     color: #c1c1c1;
+	transition: 1s;
 }
 
-.welcome {
-	width: 20%;
+#Box1 {
+	width: 19.5%;
 	height: 418px;
-	border: 5px solid #000000;
-	margin: 20px 10px;
-    padding: 0 5px;
-	position: absolute;
-    top: 150px;
-    left: 39%;
+    left: 28%;
 	background-color: #c4c4c4;
 }
 
-.welcome > p {
+#Box1 p {
 	font-size: 18px;
 	color: #000000;
 }
 
-.welcome1 {
-	width: 298px;
-	border: 5px solid #000000;
-	margin: 20px 10px;
-    padding: 0 5px;
-	position: absolute;
-    top: 150px;
-    left: 960px;
+#Box2 {
+	width: 19.5%;
+    left: 49%;
 	background-color: #c4c4c4;
 }
 
 
-.welcome1 > p {
+#Box2 p {
 	font-size: 20px;
 	color: #000000;
 }
+.box_Container {
+	border: 5px solid #000000;
+	margin: 20px 2%;
+    padding: 0 5px;
+	position: absolute;
+    top: 20%;	
+}
+
+/* James Fu was here :) */
 
 
 
