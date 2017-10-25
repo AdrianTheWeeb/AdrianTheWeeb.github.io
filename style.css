@@ -1,0 +1,86 @@
+body {
+background-image:url('images/background-3.jpg');
+margin: 0;
+padding: 0;
+font-family: 'Arial', serif;
+text-align: center;
+} 
+
+.nav {
+    background-color: #595959;
+    color: #ffffff;
+	list-style: none;
+	text-align: center;
+	padding: 20px 0 20px 0;
+}
+
+.nav > li {
+    display: inline-block;
+	padding: 0 25px 0 25px;
+
+}
+
+.nav > li > a {
+	text-decoration: none;
+	color: #ffffff
+}
+
+.nav > li > a:hover {
+    color: #c1c1c1;
+}
+
+.welcome {
+	width: 298px;
+	height: 418px;
+	border: 5px solid #000000;
+	margin: 20px 10px;
+    padding: 0 5px;
+	position: absolute;
+    top: 150px;
+    left: 620px;
+	background-color: #c4c4c4;
+}
+
+.welcome > p {
+	font-size: 18px;
+	color: #000000;
+}
+
+.welcome1 {
+	width: 298px;
+	border: 5px solid #000000;
+	margin: 20px 10px;
+    padding: 0 5px;
+	position: absolute;
+    top: 150px;
+    left: 960px;
+	background-color: #c4c4c4;
+}
+
+
+.welcome1 > p {
+	font-size: 20px;
+	color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
